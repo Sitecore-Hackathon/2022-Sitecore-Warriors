@@ -50,3 +50,4 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+docker/

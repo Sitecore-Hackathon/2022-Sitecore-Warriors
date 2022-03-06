@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Devex.Client.Cli.Extensibility" Version="4.1.1" />
+    <PackageReference Include="SitecoreWarriors.DevEx.Jobs.Client" Version="4.1.1" />
+  </ItemGroup>
+	<PropertyGroup>
+		<EnableDefaultRazorTargetAssemblyInfoAttributes>false</EnableDefaultRazorTargetAssemblyInfoAttributes>
+	</PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SitecoreWarriors.DevEx.Jobs.Client\SitecoreWarriors.DevEx.Jobs.Client.csproj" />
+  </ItemGroup>
+
+</Project>

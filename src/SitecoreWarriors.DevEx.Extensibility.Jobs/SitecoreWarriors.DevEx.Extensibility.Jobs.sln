@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SitecoreWarriors.DevEx.Extensibility.Jobs", "SitecoreWarriors.DevEx.Extensibility.Jobs.csproj", "{F4C1B248-5F61-4EB6-944D-44B46C93DB50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SitecoreWarriors.DevEx.Jobs.Client", "..\SitecoreWarriors.DevEx.Jobs.Client\SitecoreWarriors.DevEx.Jobs.Client.csproj", "{37016A8A-169D-4E24-9FBC-CDF948158639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C1B248-5F61-4EB6-944D-44B46C93DB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C1B248-5F61-4EB6-944D-44B46C93DB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C1B248-5F61-4EB6-944D-44B46C93DB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C1B248-5F61-4EB6-944D-44B46C93DB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37016A8A-169D-4E24-9FBC-CDF948158639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37016A8A-169D-4E24-9FBC-CDF948158639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37016A8A-169D-4E24-9FBC-CDF948158639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37016A8A-169D-4E24-9FBC-CDF948158639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D6CC7BC-E025-4F55-9ECA-18288955DDB4}
+	EndGlobalSection
+EndGlobal

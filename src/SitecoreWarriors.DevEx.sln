@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{A3C9008E-DAB6-4596-9896-32F80B8F69C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Management Services", "Management Services", "{7E4168E1-EE8B-43C7-B259-B58BE615E5AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SitecoreWarriors.DevEx.Extensibility.Jobs", "SitecoreWarriors.DevEx.Extensibility.Jobs\SitecoreWarriors.DevEx.Extensibility.Jobs.csproj", "{2259D35B-0BF2-4FB0-99AC-290FE0DCFBD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SitecoreWarriors.DevEx.Jobs.Client", "SitecoreWarriors.DevEx.Jobs.Client\SitecoreWarriors.DevEx.Jobs.Client.csproj", "{38F80791-E6DC-49FF-AE9F-40697460F0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreWarriors.DevEx.GraphQL.Jobs", "SitecoreWarriors.DevEx.GraphQL.Jobs\SitecoreWarriors.DevEx.GraphQL.Jobs.csproj", "{B11DBA55-53DC-420F-923E-DB8CE10B2409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2259D35B-0BF2-4FB0-99AC-290FE0DCFBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2259D35B-0BF2-4FB0-99AC-290FE0DCFBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2259D35B-0BF2-4FB0-99AC-290FE0DCFBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2259D35B-0BF2-4FB0-99AC-290FE0DCFBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F80791-E6DC-49FF-AE9F-40697460F0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F80791-E6DC-49FF-AE9F-40697460F0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F80791-E6DC-49FF-AE9F-40697460F0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F80791-E6DC-49FF-AE9F-40697460F0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11DBA55-53DC-420F-923E-DB8CE10B2409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11DBA55-53DC-420F-923E-DB8CE10B2409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11DBA55-53DC-420F-923E-DB8CE10B2409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11DBA55-53DC-420F-923E-DB8CE10B2409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2259D35B-0BF2-4FB0-99AC-290FE0DCFBD3} = {A3C9008E-DAB6-4596-9896-32F80B8F69C3}
+		{38F80791-E6DC-49FF-AE9F-40697460F0B1} = {A3C9008E-DAB6-4596-9896-32F80B8F69C3}
+		{B11DBA55-53DC-420F-923E-DB8CE10B2409} = {7E4168E1-EE8B-43C7-B259-B58BE615E5AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D6CC7BC-E025-4F55-9ECA-18288955DDB4}
+	EndGlobalSection
+EndGlobal
