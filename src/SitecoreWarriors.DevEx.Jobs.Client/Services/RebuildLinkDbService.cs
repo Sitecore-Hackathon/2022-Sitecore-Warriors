@@ -1,6 +1,6 @@
 ﻿using GraphQL.Common.Request;
 using Sitecore.DevEx.Configuration.Models;
-using Sitecore.DevEx.Serialization.Client.Datasources.Sc;
+using Sitecore.DevEx.Core.Client.GraphQl;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
