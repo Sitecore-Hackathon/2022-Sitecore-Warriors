@@ -8,7 +8,7 @@ namespace SitecoreWarriors.DevEx.Jobs.Client
     [ExcludeFromCodeCoverage]
     public static class ContainerExtensions
     {
-        public static IServiceCollection AddSchemaPopulation(
+        public static IServiceCollection AddJobServices(
           this IServiceCollection serviceCollection)
         {
             serviceCollection.TryAddTransient<IJobListService, JobListService>();

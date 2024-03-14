@@ -58,10 +58,10 @@
       <Version>1.0.4</Version>
     </PackageReference>
     <PackageReference Include="Sitecore.ExperienceContentManagement.Administration">
-      <Version>10.2.0</Version>
+      <Version>10.2.1</Version>
     </PackageReference>
     <PackageReference Include="Sitecore.Kernel">
-      <Version>10.2.0</Version>
+      <Version>10.2.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
