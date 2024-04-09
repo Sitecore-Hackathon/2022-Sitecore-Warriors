@@ -1,18 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Version>5.2.109</Version>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Sitecore.Devex.Client.Cli.Extensibility" Version="5.2.109" />
-    <PackageReference Include="SitecoreWarriors.DevEx.Jobs.Client" Version="5.2.109" />
-  </ItemGroup>
-	<PropertyGroup>
-		<EnableDefaultRazorTargetAssemblyInfoAttributes>false</EnableDefaultRazorTargetAssemblyInfoAttributes>
-	</PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SitecoreWarriors.DevEx.Jobs.Client\SitecoreWarriors.DevEx.Jobs.Client.csproj" />
-  </ItemGroup>
+
+    <PropertyGroup>
+        <EnableDefaultRazorTargetAssemblyInfoAttributes>false</EnableDefaultRazorTargetAssemblyInfoAttributes>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="Sitecore.Devex.Client.Cli.Extensibility" Version="5.2.109" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\SitecoreWarriors.DevEx.Jobs.Client\SitecoreWarriors.DevEx.Jobs.Client.csproj" />
+    </ItemGroup>
+
 
 </Project>
